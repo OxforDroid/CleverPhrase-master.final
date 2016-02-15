@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest package="su.keke.cleverphrase"
+          xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:screenOrientation="portrait"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".TexGen"
+            android:label="@string/title_activity_tex_gen"
+            android:parentActivityName=".MainActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="su.keke.cleverphrase.MainActivity"/>
+        </activity>
+        <activity
+            android:name=".VoprosAkt"
+            android:label="@string/title_activity_vopros_akt"
+            android:parentActivityName=".MainActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="su.keke.cleverphrase.MainActivity"/>
+        </activity>
+        <activity
+            android:name=".FilosofAkt"
+            android:label="@string/title_activity_filosof_akt"
+            android:parentActivityName=".MainActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="su.keke.cleverphrase.MainActivity"/>
+        </activity>
+        <activity
+            android:name=".FizikAkt"
+            android:label="@string/title_activity_fizik_akt"
+            android:parentActivityName=".MainActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="su.keke.cleverphrase.MainActivity"/>
+        </activity>
+        <activity
+            android:name=".MatemAkt"
+            android:label="@string/title_activity_matem_akt"
+            android:parentActivityName=".MainActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="su.keke.cleverphrase.MainActivity"/>
+        </activity>
+        <activity
+            android:name=".PsixAkt"
+            android:label="@string/title_activity_psix_akt"
+            android:parentActivityName=".MainActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="su.keke.cleverphrase.MainActivity"/>
+        </activity>
+        <activity
+            android:name=".Info"
+            android:label="@string/title_activity_info"
+            android:parentActivityName=".MainActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="su.keke.cleverphrase.MainActivity"/>
+        </activity>
+    </application>
+
+</manifest>

@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/random"
+            android:icon="@android:drawable/ic_menu_rotate"
+            android:title="Случайная" />
+        <item
+            android:id="@+id/otvet"
+            android:icon="@android:drawable/ic_menu_set_as"
+            android:title="Сгенерировать ответ" />
+        <item
+            android:id="@+id/vopros"
+            android:icon="@android:drawable/ic_menu_help"
+            android:title="Сгенерировать вопрос" />
+
+    </group>
+
+    <item android:title="Темы">
+        <menu>
+            <item
+                android:id="@+id/filosofiy"
+                android:icon="@android:drawable/ic_menu_send"
+                android:title="@string/filos" />
+            <item
+                android:id="@+id/fizika"
+                android:icon="@android:drawable/ic_menu_send"
+                android:title="@string/fizika" />
+            <item
+                android:id="@+id/matematika"
+                android:icon="@android:drawable/ic_menu_send"
+                android:title="@string/matem" />
+            <item
+                android:id="@+id/psifologiy"
+                android:icon="@android:drawable/ic_menu_send"
+                android:title="@string/psix" />
+
+        </menu>
+    </item>
+    <item android:title="Информация">
+        <menu>
+            <item
+                android:id="@+id/info"
+                android:icon="@android:drawable/ic_menu_info_details"
+                android:title="О приложении" />
+
+
+
+        </menu>
+    </item>
+
+</menu>
